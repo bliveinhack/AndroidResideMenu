@@ -72,4 +72,22 @@ public class ResideMenuItem extends LinearLayout{
     public void setTitle(String title){
         tv_title.setText(title);
     }
+
+    /**
+     * set the font ;
+     *
+     * @param size
+     */
+    public void setTextSize(float size){
+        tv_title.setTextSize(size);
+    }
+
+    /**
+     * set the font ;
+     *
+     * @param color
+     */
+    public void setTextColor(int color){
+        tv_title.setTextColor(color);
+    }
 }
