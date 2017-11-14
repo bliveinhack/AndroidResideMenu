@@ -1,5 +1,7 @@
-apply plugin: 'android'
+apply plugin: 'com.android.application'
+apply plugin: 'maven'
 
+group = 'com.github.bliveinhack'
 configurations {
     provided
     compile.exclude module: 'support-v4'
