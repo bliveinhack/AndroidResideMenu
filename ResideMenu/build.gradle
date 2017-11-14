@@ -1,9 +1,10 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven'
 
-group = 'com.github.YourUsername'
+group = 'com.github.bliveinhack'
 repositories {
     mavenCentral()
+    google()
 }
 
 android {
