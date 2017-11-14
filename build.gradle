@@ -16,7 +16,6 @@ ext {
 buildscript {
     repositories {
         mavenCentral()
-        google()
     }
 
     dependencies {
