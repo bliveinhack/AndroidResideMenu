@@ -1,6 +1,7 @@
 package com.special.ResideMenu;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -83,11 +84,20 @@ public class ResideMenuItem extends LinearLayout{
     }
 
     /**
-     * set the font ;
+     * set the font color;
      *
      * @param color
      */
     public void setTextColor(int color){
         tv_title.setTextColor(color);
+    }
+
+    /**
+     * set the font typeface;
+     *
+     * @param typeface
+     */
+    public void setTypeface(Typeface typeface){
+        tv_title.setTypeface(typeface);
     }
 }
