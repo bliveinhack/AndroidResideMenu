@@ -1,17 +1,9 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
+apply plugin: 'com.github.dcendents.android-maven'
+
 
 group = 'com.github.bliveinhack'
-buildscript {
-    repositories {
-        mavenCentral()
-        google()
-    }
 
-    dependencies {
-        classpath 'com.android.tools.build:gradle:' + System.properties['androidGradlePluginVersion']
-    }
-}
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
