@@ -17,7 +17,6 @@ buildscript {
     repositories {
         mavenCentral()
     }
-
     dependencies {
         classpath 'com.android.tools.build:gradle:' + System.properties['androidGradlePluginVersion']
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
