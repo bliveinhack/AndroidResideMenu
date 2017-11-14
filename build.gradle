@@ -16,6 +16,10 @@ ext {
 buildscript {
     repositories {
         mavenCentral()
+        maven {
+            url 'https://maven.google.com'
+        }
+        jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:' + System.properties['androidGradlePluginVersion']
